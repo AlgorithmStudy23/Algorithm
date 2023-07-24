@@ -17,3 +17,49 @@
 
 
 
+## 👩🏻‍💻 스터디원
+<table>
+    <tr>
+        <td height="140px" align="center"><img src="https://avatars.githubusercontent.com/yoooyeon" width="140px" /></td>
+        <td height="140px" align="center"><img src="https://avatars.githubusercontent.com/seunghye-study" width="140px" /></td>
+        <td height="140px" align="center"><img src="https://avatars.githubusercontent.com/Initium-Home" width="140px" /></td>
+        <td height="140px" align="center"><img src="https://avatars.githubusercontent.com/Heeesuu" width="140px" /></td>
+    </tr>
+    <tr>
+        <td align="center">
+          <a href="https://github.com/yoooyeon"> 황유연 </a>
+        </td>
+        <td align="center">
+          <a href="https://github.com/seunghye-study"> 황승혜 </a>
+        </td>
+        <td align="center">
+          <a href="https://github.com/Initium-Home"> 이동휘 </a>
+        </td>
+        <td align="center">
+          <a href="https://github.com/Heeesuu"> 신희수 </a>
+        </td>
+    </tr>
+</table>
+
+## 📑 풀이 문제
+
+### 1주차
+<!-- 문제 링크 셀 데이터 형식: [문제 풀이 플랫폼 | 문제 이름](문제 링크) -->
+
+| 날짜   | 문제 링크                                       |
+| ------ | -------------------------------------------- |
+| 23.07.26 | https://school.programmers.co.kr/|
+| 23.07.27 | |
+| 23.07.28 |  |
+
+### 2주차
+<!-- 문제 링크 셀 데이터 형식: [문제 풀이 플랫폼 | 문제 이름](문제 링크) -->
+
+| 날짜   | 문제 링크                                       |
+| ------ | -------------------------------------------- |
+| 23.07.31 | |
+| 23.08.01 | |
+| 23.08.02 |  |
+| 23.08.03 |  |
+| 23.08.04 |  |
+
