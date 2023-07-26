@@ -3,7 +3,9 @@ package week1.암호코드;
 import java.io.*;
 
 public class 이동휘_암호코드 {
+
     static final int MOD = 1000000;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String num = br.readLine();
@@ -19,11 +21,12 @@ public class 이동휘_암호코드 {
 
         for(int i = 2; i <= len; i++) {
             String cur = num.substring(i-2, i);
-            if ((cur.charAt(0) > '2' && cur.charAt(1) == '0') || Integer.parseInt(cur) == 0) {
+            int curNum = Integer.parseInt(cur);
+            if ((cur.charAt(0) > '2' && cur.charAt(1) == '0') || curNum == 0) {
                 dp[len] = 0;
                 break;
             }
-            if (Integer.parseInt(cur) <= 26) {
+            if (curNum >= 10 && curNum <= 26) {
                 dp[i] += dp[i-2];
             }
             if (cur.charAt(1) != '0') {
