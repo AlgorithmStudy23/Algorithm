@@ -1,56 +1,49 @@
 import sys
+
+input = sys.stdin.readline
 N, K = map(int, input().split())
-li = []
-
-if K < 5:  # 최소 단어를 못배우면
-    print(0)
-    sys.exit()
-antatica = 0
-ans = 0
-li = []
-not_learned = set()
+arr = []
 learned = ['a', 'n', 't', 'i', 'c']
-for i in range(N):
-    word = input()
-    if len(word) == 8:  # 'antatica' 알고 있는 단어 제외
-        antatica += 1
-        continue
-    mid = word[4:-4]
-    tmp = set()
-    for x in mid:
+not_learned = ['b', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l', 'm',
+               'o', 'p', 'q', 'r', 's', 'u', 'v', 'w', 'x', 'y', 'z']
+for _ in range(N):
+    word = input().strip()
+    tmp = ''
+    for x in word:
         if x not in learned:
-            tmp.add(x)
-            not_learned.add(x)
-    li.append(tmp)
+            tmp += x
+    arr.append(list(set(tmp)))
+# print(arr)
+ans = 0
 
-not_learned = list(not_learned)
 
-def get_count(res):
+def dfs(n, idx):
+    if n == 0:
+        get_count()
+        return
+    for i in range(idx, len(not_learned)):
+        learned.append(not_learned[i])
+        dfs(n - 1, i + 1)
+        learned.pop()
+
+
+def get_count():
     global ans
-    cnt = 0
-    for w in li:
+    result = 0
+    for words in arr:
         flag = True
-        for l in w:
-            if l not in res:
+        for x in words:
+            if x not in learned:
                 flag = False
                 break
         if flag:
-            cnt += 1
-    ans = max(ans, cnt)
+            result += 1
+    ans = max(ans, result)
+    return
 
 
-def comb(cnt, idx, num_idx, res):
-    global not_learned
-    if cnt == idx:
-        get_count(res)
-        return
-    if num_idx >= len(not_learned):
-        return
-    res[idx] = not_learned[num_idx]
-    comb(cnt, idx + 1, num_idx + 1, res)
-    comb(cnt, idx, num_idx + 1, res)
-    
-
-
-comb(K - 5, 0, 0, [0 for _ in range(K - 5)])
-print(ans + antatica)
+if K < 5:
+    print(ans)
+else:
+    dfs(K - 5, 0)
+    print(ans)
