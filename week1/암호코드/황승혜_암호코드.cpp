@@ -19,7 +19,7 @@ int dpcount(const string& code)
 		// 한자릿수로 해석할 때,
 		if (code[i - 1] >= '1' && code[i - 1] <= '9')
 		{
-			dp[i] += dp[i - 1];
+			dp[i] += dp[i - 1];  
 		}
 
 		// 두자릿수로 해석할 때,
