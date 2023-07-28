@@ -12,7 +12,7 @@ int find(int n)
 	if (parent[n] == n) return n;
 	else return parent[n] = find(parent[n]);
 }
-
+  
 bool isUnion(int x, int y)
 {
 	x = find(x); // x의 부모노드
