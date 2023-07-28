@@ -1,4 +1,4 @@
-package week1.사이클게임;
+package week1.사이클_게임;
 
 import java.io.*;
 import java.util.StringTokenizer;
