@@ -1,4 +1,4 @@
-package week1.소수구하기;
+package week1.소수_구하기;
 
 import java.io.*;
 import java.util.StringTokenizer;
