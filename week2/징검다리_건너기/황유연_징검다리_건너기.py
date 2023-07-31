@@ -1,6 +1,6 @@
 def solution(stones, k):
-    left = 1 # 건널 수 있는 최대 친구 수
-    right = 200000000 # 건널 수 있는 최대 친구 수
+    left = 1 
+    right = 200000000 
 
     # 이분 탐색
     while left <= right:
