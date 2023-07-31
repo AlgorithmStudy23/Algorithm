@@ -1,14 +1,22 @@
 def solution(stones, k):
-    min_ = sum(stones[:k])
-    min_window = [stones[:k]]
-    window_sum = sum(stones[:k])
-    for i in range(k, len(stones)):
-        window_sum += stones[i]
-        window_sum -= stones[i - k]
-        if min_ > window_sum:
-            min_ = window_sum
-            min_window = stones[i - k + 1:i + 1]
-            # print(min_window)
+    left = 1 # 건널 수 있는 최대 친구 수
+    right = 200000000 # 건널 수 있는 최대 친구 수
 
-    return max(min_window)
+    # 이분 탐색
+    while left <= right:
+        mid = (left + right) // 2 
+        cnt = 0
+        for x in stones:
+            if x - mid <= 0:
+                cnt += 1
+            else:
+                cnt = 0
+            if cnt >= k: # 연속으로 k개 이상을 못 건넌다면
+                break
+        
+        if cnt >= k: # 건너는 친구 수 줄이기
+            right = mid - 1
+        else: # 늘리기
+            left = mid + 1
 
+    return left
