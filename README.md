@@ -59,12 +59,11 @@
 
 | 날짜   | 문제 이름 | 문제 링크                                       |
 | ------ | ------- |-------------------------------------------- |
-| 23.07.31 | | |
-| 23.08.01 | | |
-| 23.08.02 |  | |
-| 23.08.03 |  | |
-| 23.08.04 |  | |
-| 23.08.04|  | |
-| 23.08.04|  | |
-| 23.08.04|  | |
-
+| 23.07.31 | 징검다리 건너기 | https://school.programmers.co.kr/learn/courses/30/lessons/64062 |
+| 23.08.01 | 베스트 앨범 | https://school.programmers.co.kr/learn/courses/30/lessons/42579 |
+| 23.08.02 | 후보키 | https://school.programmers.co.kr/learn/courses/30/lessons/42890 |
+| 23.08.03 | 상담원 인원 | https://school.programmers.co.kr/learn/courses/30/lessons/214288 |
+| 23.08.04 | 옹알이(2) | https://school.programmers.co.kr/learn/courses/30/lessons/133499 |
+| 23.08.04| 벌집 | https://www.acmicpc.net/problem/2292 |
+| 23.08.04| 자석 | https://www.acmicpc.net/problem/28303 |
+| 23.08.04| 소수 찾기 | https://school.programmers.co.kr/learn/courses/30/lessons/42839 |
