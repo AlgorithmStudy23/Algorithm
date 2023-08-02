@@ -9,7 +9,7 @@ def candidateKey(relation, columns):
         uniqueSet.add(unique)
     return True
 
-def sol(relation):
+def solution(relation):
     colNum = len(relation[0])
     rowNum = len(relation)
     candidateKeyList = []
@@ -18,3 +18,12 @@ def sol(relation):
         for columns in combinations(range(colNum), i):
             if candidateKey(relation, columns):
                 candidateKeyList.append(columns)
+
+    # 최소성 만족하는 후보키
+    answer = set(candidateKeyList)
+    for i in range(len(candidateKeyList)):
+        for j in range(i + 1, len(candidateKeyList)):
+            if set(candidateKeyList[i]) == set(candidateKeyList[i]) & set(candidateKeyList[j]):
+                answer.discard(candidateKeyList[j])
+            
+    return len(answer)
