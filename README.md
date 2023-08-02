@@ -68,3 +68,4 @@
 | 23.08.04| 벌집 | https://www.acmicpc.net/problem/2292 |
 | 23.08.04| 자석 | https://www.acmicpc.net/problem/28303 |
 | 23.08.04| 소수 찾기 | https://school.programmers.co.kr/learn/courses/30/lessons/42839 |
+
