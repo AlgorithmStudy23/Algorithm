@@ -1,9 +1,9 @@
-package week2.베스트_앨범;
+package week2.베스트앨범;
 
 import java.util.HashMap;
 import java.util.ArrayList;
 
-public class 이동휘_베스트_앨범 {
+public class 이동휘_베스트앨범 {
 
 
     class Node implements Comparable<Node> {
