@@ -1,4 +1,7 @@
 def check_key(res, relation, keys):
+    # 유일성 체크 전 최소성 체크를 하여 시간을 단축
+    if not is_minimal(res, keys.copy()):
+        return False
     tmp = []
     for row in relation:
         tmp_row = []
@@ -8,9 +11,7 @@ def check_key(res, relation, keys):
             tmp.append(tmp_row)
     if len(tmp) == len(relation):
         if res not in keys:
-            if is_minimal(res, keys.copy()):
-                # print(res)
-                keys.append(res)
+            keys.append(res)
 
 # 파이썬 내장 함수를 사용하는 방법
 # def is_minimal(res, keys):
