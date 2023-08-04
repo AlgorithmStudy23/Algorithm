@@ -14,8 +14,12 @@ print(result)
 results = []
 
 # 나머지 값들과 비교하여 최댓값 찾기
-for i in range(n):
-    value = num1[i] - min_value - (k * abs(i - min_value_index))
+for i in range(1, n+1):
+    value = num2[i] - min_value - (k * abs(i - min_value_index))
+    results.append(value)
+
+for i in range(0, n):
+    value = max_value - num2[i] - (k * abs(i - min_value_index))
     results.append(value)
 
 # 결과 리스트에서 최댓값 찾기
