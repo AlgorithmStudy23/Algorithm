@@ -76,7 +76,7 @@
 | 23.08.07 | 알고스팟 | https://www.acmicpc.net/problem/1261 |
 | 23.08.08 | 미로 탈출 명령어 | https://school.programmers.co.kr/learn/courses/30/lessons/150365 |
 | 23.08.09 | 최단경로 | https://www.acmicpc.net/problem/1753 |
-| 23.08.10 | 경주로 건설 | https://school.programmers.co.kr/learn/courses/30/lessons/214288 |
+| 23.08.10 | 경주로 건설 | https://school.programmers.co.kr/learn/courses/30/lessons/67259 |
 | 23.08.11 | 성격 유형 검사하기 | https://school.programmers.co.kr/learn/courses/30/lessons/118666 |
 | 23.08.11| 뉴스 전하기 | https://www.acmicpc.net/problem/1135 |
 | 23.08.11| 게임 개발 | https://www.acmicpc.net/problem/1516 |
