@@ -5,7 +5,9 @@
 - 운영 기간: 23.07.26 ~ 23.08.23 ( 4주 )
 - 모임 날짜: 평일 주 5일 |
    - 월~목: 오전 10시 ~ 오전 11시 30분 | 온라인
+      - 각자 문제 풀이: 1시간, 풀이 공유 및 설명: 30분
    - 금: 오전 10 ~ 12시 30분 | 온라인
+      - 각자 문제 풀이: 2시간, 풀이 공유 및 설명: 30분
 - 정기모임 진행방식 또는 패널티: [Wiki 페이지](https://github.com/AlgorithmStudy23/Algorithm/wiki/%EC%8A%A4%ED%84%B0%EB%94%94-%EC%A7%84%ED%96%89-%EB%B0%A9%EC%8B%9D-%EB%B0%8F-%EA%B7%9C%EC%B9%99) 참고
 
 ## 규칙
@@ -68,4 +70,17 @@
 | 23.08.04| 벌집 | https://www.acmicpc.net/problem/2292 |
 | 23.08.04| 자석 | https://www.acmicpc.net/problem/28303 |
 | 23.08.04| 소수 찾기 | https://school.programmers.co.kr/learn/courses/30/lessons/42839 |
+
+### 3주차
+
+| 날짜   | 문제 이름 | 문제 링크                                       |
+| ------ | ------- |-------------------------------------------- |
+| 23.08.07 | 알고스팟 | https://www.acmicpc.net/problem/1261 |
+| 23.08.08 | 미로 탈출 명령어 | https://school.programmers.co.kr/learn/courses/30/lessons/150365 |
+| 23.08.09 | 최단경로 | https://www.acmicpc.net/problem/1753 |
+| 23.08.10 | 경주로 건설 | https://school.programmers.co.kr/learn/courses/30/lessons/67259 |
+| 23.08.11 | 성격 유형 검사하기 | https://school.programmers.co.kr/learn/courses/30/lessons/118666 |
+| 23.08.11| 뉴스 전하기 | https://www.acmicpc.net/problem/1135 |
+| 23.08.11| 게임 개발 | https://www.acmicpc.net/problem/1516 |
+| 23.08.11| 리코쳇 로봇 | https://school.programmers.co.kr/learn/courses/30/lessons/169199 |
 
