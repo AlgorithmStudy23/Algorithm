@@ -6,6 +6,7 @@ import java.util.*;
 public class 이동휘_최단경로 {
 
     static final int INF = (1 << 28);
+    static ArrayList<LinkedList<Node>> graph;
     static class Node implements Comparable<Node> {
         int e, cost;
         public Node(int e, int cost) {
@@ -17,7 +18,6 @@ public class 이동휘_최단경로 {
             return cost - o.cost;
         }
     }
-    static ArrayList<LinkedList<Node>> graph;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -50,9 +50,9 @@ public class 이동휘_최단경로 {
     static int[] dijkstra(int k, int V) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
         int[] dist = new int[V];
+        pq.add(new Node(k, 0));
         Arrays.fill(dist, INF);
         dist[k] = 0;
-        pq.add(new Node(k, 0));
         while (!pq.isEmpty()) {
             Node cur = pq.remove();
 
