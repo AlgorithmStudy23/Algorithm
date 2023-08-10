@@ -32,7 +32,7 @@ while q.qsize() > 0:
 
         if distance[next] > distance[c_v] + value: #최소거리로 업데이트함
             distance[next] = distance[c_v] + value
-            q.put((distance[next], next)) #가중치가 정렬 기준이므로 순서를 가중치, 목표노드순으로 우선순위 큐
+            q.put((distance[next], next)) #가중치가 정렬 기준이므로 순서를 가중치,, 목표노드순으로 우선순위 큐
 
 for i in range(1, v + 1):
     if visited[i]:
