@@ -89,8 +89,8 @@
 | 날짜   | 문제 이름 | 문제 링크                                       |
 | ------ | ------- |-------------------------------------------- |
 | 23.08.14 | 타임머신 | https://www.acmicpc.net/problem/11657 |
-| 23.08.16 | 상범빌딩 | https://www.acmicpc.net/problem/6593 |
-| 23.08.17 | 우주신과의 교신 | https://www.acmicpc.net/problem/1774 |
+| 23.08.16 | 상범 빌딩 | https://www.acmicpc.net/problem/6593 |
+| 23.08.17 | 우주신과의 교감 | https://www.acmicpc.net/problem/1774 |
 | 23.08.18 | 증가하는 수 | https://www.acmicpc.net/problem/10573 |
 | 23.08.18| 전력망 둘로 나누기 | https://school.programmers.co.kr/learn/courses/30/lessons/86971 |
 | 23.08.18| 플로이드 | https://www.acmicpc.net/problem/11404 |
