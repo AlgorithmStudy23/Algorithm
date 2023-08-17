@@ -1,4 +1,4 @@
-package week4;
+package week4.타임머신;
 
 import java.io.*;
 import java.util.Arrays;
