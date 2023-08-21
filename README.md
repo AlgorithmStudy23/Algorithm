@@ -95,3 +95,12 @@
 | 23.08.18| 전력망 둘로 나누기 | https://school.programmers.co.kr/learn/courses/30/lessons/86971 |
 | 23.08.18| 플로이드 | https://www.acmicpc.net/problem/11404 |
 | 23.08.18 | 사라지는 발판 | https://school.programmers.co.kr/learn/courses/30/lessons/92345 |
+
+
+### 5주차
+
+그동안 풀었던 문제들을 정리하는 시간으로 활용합니다.
+
+
+
+
